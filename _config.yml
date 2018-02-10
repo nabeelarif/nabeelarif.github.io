@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Muhammad Nabeel Arif"
-  avatar           : "/images/default-thumb.png"
+  avatar           : "assets/images/default-thumb.png"
   bio              : "Principal Software Engineer"
   location         : "Planet Earth"
   email            :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : 800848/muhammad-nabeel-arif # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : nabeelarif100
   vine             :
   weibo            :
   xing             :
@@ -192,6 +192,14 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: "wide"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 
 

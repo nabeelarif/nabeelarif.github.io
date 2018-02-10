@@ -1,11 +1,12 @@
 ---
+permalink: /about/
 title: Muhammad Nabeel arif
 tags: 
   - about
   - Muhammad Nabeel Arif 
   - nabeelarif
 layout: single
-modified: 2016-03-14T20:53:07.573882-04:00
+modified: 2018-02-11T20:53:07.573882-04:00
 ---
 
 I have around 6 years of professional experience in iOS, Android and their communication with the server side. I develop professional applications some of them are available on AppStore and Google Play Store.
