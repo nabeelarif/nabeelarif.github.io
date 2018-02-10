@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Muhammad Nabeel Arif"
-  avatar           : "assets/images/default-thumb.png"
+  avatar           : "/assets/images/default-thumb.png"
   bio              : "Principal Software Engineer"
   location         : "Planet Earth"
   email            :
