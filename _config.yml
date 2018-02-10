@@ -210,6 +210,10 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Remote theme
 remote_theme: "mmistakes/minimal-mistakes"
 
+#Theme Skin
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+search: true
+
 # Plugins
 plugins:
   - jekyll-remote-theme

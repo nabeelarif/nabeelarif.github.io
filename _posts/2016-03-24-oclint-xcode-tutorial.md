@@ -1,4 +1,5 @@
 ---
+toc: true
 title: "OCLint integration in XCode with xctool"
 excerpt: "A detailed overview of OCLint as static analyzer with XCode"
 tags: 
