@@ -1,0 +1,33 @@
+[[social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/nabeelarif/nabeelarif.github.io"
+
+    [social.params]
+        icon = "brand-github"
+
+[[social]]
+    identifier = "twitter"
+    name       = "Twitter"
+    url        = "https://x.com/iNabeelArif"
+
+    [social.params]
+        icon = "brand-twitter"
+
+[[social]]
+    identifier = "linkedin"
+    name       = "LinkedIn"
+    url        = "https://www.linkedin.com/in/nabeelarif100/"
+
+    [social.params]
+        icon = "brand-linkedin"
+
+
+[[social]]
+    identifier = "stackoverflow"
+    name       = "StackOverflow"
+    url        = "https://stackoverflow.com/users/800848/muhammad-nabeel-arif?tab=profile"
+
+    [social.params]
+        icon = "brand-stackoverflow"
+

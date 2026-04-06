@@ -1,0 +1,35 @@
+baseURL = 'https://nabeelarif.github.io/'
+locale = 'en-us'
+title = "Nabeel's - iOS Developer Blog"
+theme = 'stack'
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[params]
+  author = 'Muhammad Nabeel Arif'
+  description = 'iOS development articles on Swift, SwiftUI, UIKit, architecture, testing, and engineering leadership.'
+  mainSections = ['posts']
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    style = 'dracula'
+    tabWidth = 4
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    maxAge = -1
