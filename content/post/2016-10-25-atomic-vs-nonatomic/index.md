@@ -12,6 +12,7 @@ tags:
   - performance
 date: 2016-10-25
 comments: true
+image: cover.png
 categories:
   - Objective-C
   - Thread Safety
