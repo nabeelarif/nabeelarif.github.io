@@ -14,6 +14,7 @@ date: 2016-03-30
 comments: false
 categories:
   - Concurrency
+toc: true
 ---
 
 Grand Central Dispatch (GCD) is a technology by Apple to manage multiple cores of hardware at system level. As GCD is built at lower level and closer to unix system, it can manage muliple cores and developer do not have to worry about it. GCD provides a set of APIs which a developer can use to submit code blocks (dispatch objects) to it, after that GCD can do its magic.

@@ -13,6 +13,7 @@ date: 2016-10-25
 comments: true
 categories:
   - Objective-C
+toc: true
 ---
 
 At the core of Object Orientation you should not access data directly, instead you should use accessor methods to get or set the data. In Objective-C @property directive is a simplified way in which developers can tell the compiler about the behavior required for the accessor methods, which is simple and brief.
