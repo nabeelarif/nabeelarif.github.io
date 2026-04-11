@@ -5,6 +5,9 @@ backend:
 media_folder: "static/img"
 public_folder: "/img"
 
+site_url: "https://nabeelarif.github.io/"
+display_url: "https://nabeelarif.github.io/"
+
 collections:
   - name: "post"
     label: "Posts"
@@ -12,8 +15,27 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    editor:
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - label: "Image"
+        name: "image"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Cover Image", name: "cover", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
