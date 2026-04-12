@@ -5,8 +5,8 @@ backend:
 media_folder: "static/img"
 public_folder: "/img"
 
-site_url: "https://nabeelarif.github.io/"
-display_url: "https://nabeelarif.github.io/"
+site_url: "https://nabeelarif.github.io"
+display_url: "https://nabeelarif.github.io"
 
 collections:
   - name: "post"
